@@ -1,0 +1,101 @@
+{
+  "uuid": "d032540e-b867-4844-a5e8-341914e55f2f",
+  "shortName": "cram",
+  "longName": "cram",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "capabilities": [
+    "location",
+    "configurable"
+  ],
+  "appKeys": {
+    "WEATHER_CITY_KEY": 2,
+    "WEATHER_TEMPERATURE_KEY": 1,
+    "WEATHER_ICON_KEY": 0,
+    "WEATHER_SUNRISE_KEY": 3,
+    "WEATHER_SUNSET_KEY": 4,
+    "WEATHER_CONDITIONS_KEY": 5,
+    "WEATHER_HUMIDITY_KEY": 7,
+    "WEATHER_WINDSPEED_KEY": 8,
+    "WEATHER_WINDDEG_KEY": 9,
+    "WEATHER_TEMPMIN_KEY": 10,
+    "WEATHER_TEMPMAX_KEY": 11,
+    "WEATHER_WINDREPORT_KEY": 12,
+    "WEATHER_TEMPMINMAX_KEY": 13,
+    "WEATHER_PRESSURE_KEY": 14,
+    "WEATHER_TEMP_6H_KEY": 15,
+    "WEATHER_TEMP_12H_KEY": 16,
+    "WEATHER_TEMP_18H_KEY": 17,
+    "WEATHER_TEMP_24H_KEY": 18,
+    "WEATHER_SUN_RISE_UNIX_KEY": 19,
+    "WEATHER_SUN_SET_UNIX_KEY": 20,
+    "WEATHER_DATA_TIME_KEY": 21,
+    "WEATHER_TIME_UTC_OFFSET_KEY": 22,
+    "WEATHER_LOCATION_NAME_KEY": 23,
+    "WEATHER_TIME_6H_KEY": 24,
+    "WEATHER_TIME_12H_KEY": 25,
+    "WEATHER_TIME_18H_KEY": 26,
+    "WEATHER_TIME_24H_KEY": 27,
+    "TIME_UTC_OFFSET_KEY": 30,
+    "BACKGROUND_COLOUR_KEY": 100,
+    "HOUR_TXT_COLOR_KEY": 102,
+    "HOUR_BG_COLOR_KEY": 103,
+    "MIN_TXT_COLOR_KEY": 104,
+    "MIN_BG_COLOR_KEY": 105,
+    "CALHDR_TXT_COLOR_KEY": 106,
+    "CALHDR_BG_COLOR_KEY": 107,
+    "CAL_TXT_COLOR_KEY": 108,
+    "CAL_BG_COLOR_KEY": 109,
+    "CALTODAY_TXT_COLOR_KEY": 110,
+    "CALTODAY_BG_COLOR_KEY": 111,
+    "DATEBOX_TXT_COLOR_KEY": 112,
+    "DATEBOX_BG_COLOR_KEY": 113,
+    "TZTOP_TXT_COLOR_KEY": 114,
+    "TZTOP_BG_COLOR_KEY": 115,
+    "TZMID_TXT_COLOR_KEY": 116,
+    "TZMID_BG_COLOR_KEY": 117,
+    "TZBOT_TXT_COLOR_KEY": 118,
+    "TZBOT_BG_COLOR_KEY": 119,
+    "CALMONTHLABEL_TXT_COLOR_KEY": 120,
+    "CALMONTHLABEL_BG_COLOR_KEY": 121,
+    "WEATHER_TXT_COLOR_KEY": 122,
+    "WEATHER_BG_COLOR_KEY": 123,
+    "BLUETOOTH_TXT_COLOR_KEY": 124,
+    "BLUETOOTH_BG_COLOR_KEY": 125,
+    "BATTERY_TXT_COLOR_KEY": 126,
+    "BATTERY_BG_COLOR_KEY": 127,
+    "TZTOP_NUM_KEY": 203,
+    "TZTOP_TXT_KEY": 204,
+    "TZMID_NUM_KEY": 205,
+    "TZMID_TXT_KEY": 206,
+    "TZBOT_NUM_KEY": 207,
+    "TZBOT_TXT_KEY": 208,
+    "CONFIG_CITY_KEY": 209,
+    "CONFIG_DEGREE_F_KEY": 210
+  },
+  "resources": {
+    "media": [
+      {
+        "file": "font/meteocons.ttf",
+        "name": "FONT_CLIMACONS_30",
+        "type": "font"
+      },
+      {
+        "file": "font/3x5px.ttf",
+        "name": "FONT_TINY_8",
+        "type": "font"
+      },
+      {
+        "file": "font/5x5_pixel.ttf",
+        "name": "FONT_CAL_8",
+        "type": "font"
+      }
+
+   ]
+  }
+}
